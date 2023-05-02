@@ -1,0 +1,119 @@
+{
+    "Library" :[
+        {
+            "id": 1,
+            "statistic_rectangle": "/images/Rectangle1.png",
+            "text": ""
+        },
+        {
+            "id": 2,
+            "statistic_rectangle": "/images/Rectangle2.png",
+            "text": ""
+        },
+        {
+            "id": 3,
+            "statistic_rectangle": "/images/Rectangle2.png",
+            "text": ""
+        },
+        {
+            "id": 4,
+            "statistic_rectangle": "/images/Rectangle4.png",
+            "text": ""
+        },
+        {
+            "id": 5,
+            "statistic_rectangle": "/images/Rectangle5.png",
+            "text": ""
+        },
+        {
+            "id": 6,
+            "statistic_rectangle": "/images/Rectangle1.png",
+            "text": ""
+        },
+        {
+            "id": 7,
+            "statistic_rectangle": "/images/Rectangle6.png",
+            "text": ""
+        },
+        {
+            "id": 8,
+            "statistic_rectangle": "/images/Rectangle2.png",
+            "text": ""
+        },
+        {
+            "id": 9,
+            "statistic_rectangle": "/images/Rectangle2.png",
+            "text": ""
+        },
+        {
+            "id": 10,
+            "statistic_rectangle": "/images/Rectangle4.png",
+            "text": ""
+        },
+        {
+            "id": 11,
+            "statistic_rectangle": "/images/Rectangle5.png",
+            "text": ""
+        },
+        {
+            "id": 12,
+            "statistic_rectangle": "/images/Rectangle7.png",
+            "text": ""
+        },
+        {
+            "id": 13,
+            "statistic_rectangle": "/images/Rectangle6.png",
+            "text": ""
+        },
+        {
+            "id": 14,
+            "statistic_rectangle": "/images/Rectangle5.png",
+            "text": ""
+        },
+        {
+            "id": 15,
+            "statistic_rectangle": "/images/Rectangle5.png",
+            "text": ""
+        },
+        {
+            "id": 16,
+            "statistic_rectangle": "/images/Rectangle4.png",
+            "text": ""
+        },
+        {
+            "id": 17,
+            "statistic_rectangle": "/images/Rectangle5.png",
+            "text": ""
+        },
+        {
+            "id": 18,
+            "statistic_rectangle": "/images/Rectangle7.png",
+            "text": ""
+        },
+        {
+            "id": 19,
+            "statistic_rectangle": "/images/Rectangle6.png",
+            "text": ""
+        },
+        {
+            "id": 20,
+            "statistic_rectangle": "/images/Rectangle5.png",
+            "text": ""
+        },
+        {
+            "id": 21,
+            "statistic_rectangle": "/images/Rectangle5.png",
+            "text": ""
+        },
+        {
+            "id": 22,
+            "statistic_rectangle": "/images/Rectangle4.png",
+            "text": ""
+        },
+        {
+            "id": 23,
+            "statistic_rectangle": "/images/Rectangle5.png",
+            "text": ""
+        }
+    ]
+}

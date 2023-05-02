@@ -1,0 +1,81 @@
+.Home_page{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Home_page section{
+    width: 38%;
+}
+
+.home_graphics img{
+    position: absolute;
+    left: 63px;
+}
+.Home_page .home_text{
+    position: absolute;
+    left: 50%;
+    top: 5em;
+}
+
+article{
+    margin-bottom: 2em;
+    border-bottom: 1px solid #C4C4C4;;
+}
+
+input{
+    width: 83%;
+    border: 0;
+    border-bottom: 2px solid blue;
+    padding: 10px;
+    font-size: 18px;
+}
+
+input::placeholder{
+    font-size: 18px;
+    font-size: 'Poppins';
+    line-height: 27px;
+}
+
+input:focus{
+    outline: 0;
+}
+.icon{
+    position: absolute;
+    top: 1em;
+}
+
+.home_actions{
+    padding-bottom: 31px;
+}
+
+span{
+    font-size: 10px;
+    line-height: 15px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.home_dots{
+    position: absolute;
+    right: 0;
+}
+.firstdots{
+    top: 90px;
+}
+.secondtdots{
+    top: 266px;
+}
+.home_btn{
+    color: blue;
+    font-weight: 600;
+}
+
+.Home_statistic{
+    width: 100%;
+    background-color: blue;
+    height: 82px;
+    position: absolute;
+    bottom: 50px;
+}
