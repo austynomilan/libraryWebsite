@@ -1,7 +1,7 @@
 import "./Home.css";
 import LandingLayout from "../Layout/landingLayout";
 import Home_image from "/images/home.png";
-import { HiOutlineSearchCircle, HiOutlineDotsVertical } from "react-icons/Hi";
+import { HiOutlineSearchCircle, HiOutlineDotsVertical, } from "react-icons/Hi";
 import Data from '../../Data/data.json'
 
 export default function Home() {

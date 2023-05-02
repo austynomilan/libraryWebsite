@@ -32,3 +32,20 @@ nav{
     border-bottom: 2px solid blue ;
     color: rgb(70, 70, 233);
 }
+
+footer img{
+    position: relative;
+    top: -10px;
+}
+
+footer ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+footer ul li{
+    padding-left: 10px;
+}

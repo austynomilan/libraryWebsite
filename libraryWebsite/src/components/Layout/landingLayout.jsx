@@ -1,6 +1,8 @@
 import "./landingLayout.css";
 import Logo from "/images/logo.png";
 import { Link, NavLink } from "react-router-dom";
+import { CgCopyright } from "react-icons/Cg";
+import TradeMark from "/images/image 7.svg"
 
 export default function landingLayout({children}) {
   return (
@@ -38,6 +40,14 @@ export default function landingLayout({children}) {
         </div>
       </nav>
       {children}
+      <footer>
+        <ul>
+          <li><CgCopyright /></li>
+          <li>2022 The publication Library.</li>
+          <li>All right Reserved</li>
+          <li><img src={TradeMark} alt="TradeMark"  /></li>
+        </ul>
+      </footer>
     </>
   );
 }
