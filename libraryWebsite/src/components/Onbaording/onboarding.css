@@ -1,0 +1,77 @@
+.onboard_page{
+    display: flex;
+    justify-content: space-between;
+}
+
+.onboard_grahics{
+    position: absolute;
+    width: 38%;
+    margin-left: 30px;
+}
+.onboard_grahics p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #505050;
+}
+
+.onboard_grahics img{
+    position: relative;
+    left: 60px;
+}
+
+.onboard_text{
+    width: 37%;
+    position: relative;
+    left: 50%;
+    margin-top: -13px;
+}
+
+h2{
+    font-size: 36px;
+    font-family: "Poppins";
+    margin-bottom: -1px;
+}
+span{
+   font-weight: 700;
+   color: black;
+   font-family: "Helvetica Neue";
+}
+.onboard_action {
+    margin-top: 40px;
+}
+
+input{
+    border-bottom:0.5px solid #c4c4c4;
+    transition: 1s ease-in;
+}
+
+input:focus{
+    border-bottom: 2px solid blue;
+}
+
+.onboard_keys{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.onboard_keys button{
+    background-color: blue;
+    border-radius: 8px;
+    color: #fff;
+    font-weight: 700;
+    padding: 0 30px;
+    border: 0;
+}
+.onboard_keys button:hover{
+    background-color: rgb(1, 1, 89);
+}
+.onboard_keys button:active{
+    transition: 1s ease-in;
+    transform: scale(0.9);
+}
+
+.onboard_keys p{
+font-size: 12px;
+color: blue;
+}
