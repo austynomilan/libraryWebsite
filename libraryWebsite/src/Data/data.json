@@ -3,116 +3,139 @@
         {
             "id": 1,
             "statistic_rectangle": "/images/Rectangle1.png",
+            "date": 1999,
             "text": ""
         },
         {
             "id": 2,
             "statistic_rectangle": "/images/Rectangle2.png",
+            "date": 2000,
             "text": ""
         },
         {
             "id": 3,
             "statistic_rectangle": "/images/Rectangle2.png",
+            "date": 2001,
             "text": ""
         },
         {
             "id": 4,
             "statistic_rectangle": "/images/Rectangle4.png",
+            "date": 2002,
             "text": ""
         },
         {
             "id": 5,
             "statistic_rectangle": "/images/Rectangle5.png",
+            "date": 2003,
             "text": ""
         },
         {
             "id": 6,
             "statistic_rectangle": "/images/Rectangle1.png",
+            "date": 2004,
             "text": ""
         },
         {
             "id": 7,
             "statistic_rectangle": "/images/Rectangle6.png",
+            "date": 2005,
             "text": ""
         },
         {
             "id": 8,
             "statistic_rectangle": "/images/Rectangle2.png",
+            "date": 2006,
             "text": ""
         },
         {
             "id": 9,
             "statistic_rectangle": "/images/Rectangle2.png",
+            "date": 2007,
             "text": ""
         },
         {
             "id": 10,
             "statistic_rectangle": "/images/Rectangle4.png",
+            "date": 2008,
             "text": ""
         },
         {
             "id": 11,
             "statistic_rectangle": "/images/Rectangle5.png",
+            "date": 2009,
             "text": ""
         },
         {
             "id": 12,
             "statistic_rectangle": "/images/Rectangle7.png",
+            "date": 2010,
             "text": ""
         },
         {
             "id": 13,
             "statistic_rectangle": "/images/Rectangle6.png",
+            "date": 2011,
             "text": ""
         },
         {
             "id": 14,
             "statistic_rectangle": "/images/Rectangle5.png",
+            "date": 2012,
             "text": ""
         },
         {
             "id": 15,
             "statistic_rectangle": "/images/Rectangle5.png",
+            "date": 2013,
             "text": ""
         },
         {
             "id": 16,
             "statistic_rectangle": "/images/Rectangle4.png",
+            "date": 2014,
             "text": ""
         },
         {
             "id": 17,
             "statistic_rectangle": "/images/Rectangle5.png",
+            "date": 2015,
             "text": ""
         },
         {
             "id": 18,
             "statistic_rectangle": "/images/Rectangle7.png",
+            "date": 2016,
             "text": ""
         },
         {
             "id": 19,
             "statistic_rectangle": "/images/Rectangle6.png",
+            "date": 2017,
             "text": ""
         },
         {
             "id": 20,
             "statistic_rectangle": "/images/Rectangle5.png",
+            "date": 2018,
             "text": ""
         },
         {
             "id": 21,
             "statistic_rectangle": "/images/Rectangle5.png",
+            "date": 20109,
             "text": ""
         },
         {
             "id": 22,
             "statistic_rectangle": "/images/Rectangle4.png",
+            "date": 2020,
             "text": ""
         },
         {
             "id": 23,
             "statistic_rectangle": "/images/Rectangle5.png",
+            "date": 2021,
             "text": ""
         }
     ]

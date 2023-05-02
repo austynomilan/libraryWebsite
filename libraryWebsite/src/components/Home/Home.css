@@ -73,9 +73,31 @@ span{
 }
 
 .Home_statistic{
-    width: 100%;
+    width: 99%;
     background-color: blue;
     height: 82px;
     position: absolute;
-    bottom: 50px;
+    bottom: 70px;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+   
+}
+
+.stat{
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+}
+
+.stat_image{
+    position: relative;
+    top: -15px;
+    right: -282px;
+}
+.stat span{
+    position: relative;
+    top: -10px;
+    right: -282px;
+    font-weight: 600;
 }

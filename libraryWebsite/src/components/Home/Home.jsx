@@ -2,6 +2,7 @@ import "./Home.css";
 import LandingLayout from "../Layout/landingLayout";
 import Home_image from "/images/home.png";
 import { HiOutlineSearchCircle, HiOutlineDotsVertical } from "react-icons/Hi";
+import Data from '../../Data/data.json'
 
 export default function Home() {
   return (
@@ -59,7 +60,16 @@ export default function Home() {
           </article>
         </section>
       </div>
-      <div className="Home_statistic"></div>
+      <div className="Home_statistic">
+          {Data.Library.map(statistcs => (
+            <div className="stat" key={statistcs.id}>
+              <img className="stat_image" src={statistcs.statistic_rectangle} alt={`image of ${statistcs.date}`} />
+              <span>
+                {statistcs.date}
+              </span>
+            </div>
+          ))}
+      </div>
     </LandingLayout>
   );
 }
