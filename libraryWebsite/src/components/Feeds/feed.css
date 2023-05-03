@@ -58,9 +58,11 @@ font-weight: 500;
 .feed_tools{
     width: 96%;
     padding-left: 80px;
-    height: 100%;
-    background-color:  #E5E5E5;
+    height: 100vh;
+    background-color:  #fafafa;
     position: absolute;
+    z-index: -2 !important;
+
 }
 .box label{
     position: absolute;
@@ -109,4 +111,86 @@ font-weight: 500;
 .tools_selectors label{
     font-weight: 700;
     font-family: "Helvetica Neue";
+}
+
+.feed_page_text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.story_holder{
+    z-index: 500 !important;
+    width: 65%;
+    background-color: #fff;
+    padding: 0px;
+    position: relative;
+    left: 30%;
+    border-radius: 8px;
+    transition: all 1s ease-in;
+}
+
+.story_holder:hover{
+    box-shadow: 5px 4px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.story_holder h6{
+    color: blue;
+    margin-bottom: -23px;
+}
+.story_holder h3{
+margin-bottom: -5px;
+}
+
+.story_control{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.story_control .icons{
+height: 450x;
+width: 50px;
+border-radius: 50%;
+padding: 10px;
+margin: 10px;
+color: #fff;
+}
+
+.download{
+    background-color: blue;
+}
+
+.bookmark{
+    background-color: #000;
+}
+.share{
+    background-color: #B8B8B8;
+}
+.feed_page_text{
+    position: relative;
+}
+.pagination{
+    display: flex;
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.pagination div{
+    padding: 0 10px;
+}
+
+.pagination .bgBlue{
+border: 1px solid blue;
+width: 18px;
+height: 18px;
+padding-top: -0.2px;
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+background-color: blue;
+border-radius: 2px;
 }
