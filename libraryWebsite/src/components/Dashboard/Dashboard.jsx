@@ -1,11 +1,11 @@
 import './Dashboard.css'
+import LandingLayout from "../Layout/landingLayout";
 
-import React from 'react'
 
 export default function Dashboard() {
   return (
-    <>
-      <h2>Dashboard</h2>
-    </>
+    <LandingLayout>
+      
+    </LandingLayout>
   )
 }
