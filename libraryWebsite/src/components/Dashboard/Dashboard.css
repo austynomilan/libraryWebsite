@@ -56,3 +56,70 @@
 .file_holder3 {
   width: 25%;
 }
+
+.upload_tag{
+    margin: -20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed #000000;
+    padding: 10px;
+    width: 55%;
+}
+
+.upload_tag h3{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Helvetica";
+}
+
+.upload_tag strong{
+    color: blue;
+}
+
+.upload_tag span{
+    text-align: center;
+}
+
+.btn_holder{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20%;
+}
+
+.btn_holder :nth-child(1){
+   border: 0;
+   border-bottom: 1px solid black;
+   background: transparent;
+   font-size: 14px;
+   margin: 20px;
+   font-family: 'Roboto';
+   transition: 1s ease;
+}
+
+.btn_holder :nth-child(1):hover{
+    border: 0;
+    color: blue;
+    font-weight: 700;
+}
+
+.btn_holder :nth-child(2){
+    border: 1px solid blue;
+    background: blue;
+    color: #fff;
+    padding:  10px 30px;
+    font-size: 14px;
+    margin: 20px;
+    font-family: 'Roboto';
+    border-radius: 4px;
+ }
+
+ .btn_holder :nth-child(2):hover{
+    background-color: rgb(18, 18, 100);
+    color: #fff;
+}
+
+.btn_holder :nth-child(2):active{
+transform: scale(0.98);
+}

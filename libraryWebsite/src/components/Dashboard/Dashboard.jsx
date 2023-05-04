@@ -1,6 +1,6 @@
 import "./Dashboard.css";
 import LandingLayout from "../Layout/landingLayout";
-import { HiOutlineSearchCircle } from "react-icons/Hi";
+import { HiOutlineSearchCircle, HiOutlineCloudUpload } from "react-icons/Hi";
 
 export default function Dashboard() {
   return (
@@ -40,6 +40,23 @@ export default function Dashboard() {
   <option value="Statutory Regulations">Statutory Regulations</option>
   <option value="Statutory Regulations">Statutory Regulations</option>
     </select>
+  </section>
+</section>
+<section>
+  <section className="upload_tag">
+  <HiOutlineCloudUpload 
+  size={40}
+  color="blue"
+  />
+  <h3>Drop files to upload or <strong>browse</strong></h3>
+  <span>
+    You can only upload PDF formats <br />
+    Maximum filr size is 30MB
+  </span>
+  </section>
+  <section className="btn_holder">
+    <button>Clear</button>
+  <button>Upload</button>
   </section>
 </section>
       </div>
