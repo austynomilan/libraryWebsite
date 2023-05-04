@@ -22,7 +22,7 @@ export default function Home() {
           </div>
           <article>
             <div className="home_text_head">
-              <h3>The Official Gazette for 2004 Contract Bills</h3>
+              <h3 className="animated-paragraph">The Official Gazette for 2004 Contract Bills</h3>
               <p className="home_btn">Contract Bills</p>
               <HiOutlineDotsVertical
                 className="home_dots firstdots"
