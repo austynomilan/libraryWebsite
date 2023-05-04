@@ -8,6 +8,11 @@
     width: 38%;
 }
 
+.pulse {
+    animation: pulse 3s infinite ease-in-out alternate;
+  }
+    
+
 .home_graphics img{
     position: absolute;
     left: 63px;
@@ -101,3 +106,8 @@ span{
     right: -282px;
     font-weight: 600;
 }
+
+@keyframes pulse {
+    from { transform: scale(0.93); }
+    to { transform: scale(1); }
+  }

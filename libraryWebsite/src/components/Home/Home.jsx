@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <LandingLayout>
       <div className="Home_page">
-        <section className="home_graphics">
+        <section className="home_graphics pulse">
           <img src={Home_image} alt="Reading on a couch" />
         </section>
         <section className="home_text">
