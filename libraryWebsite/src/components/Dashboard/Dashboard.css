@@ -1,3 +1,7 @@
+.dashboard_page {
+  width: 100%;
+}
+
 .dash_board_header {
   box-sizing: border-box;
   border-bottom: 1px solid blue;
@@ -11,4 +15,44 @@
   font-size: 20px;
   line-height: 30px;
   padding: 10px 20px;
+}
+
+.file_holder input {
+  width: 74%;
+  border: 1px solid #d4d4d8;
+  border-radius: 4px;
+  font-family: "Helvetica Neue";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 20px 0;
+}
+.file_holder select {
+  width: 80%;
+  border: 1px solid #d4d4d8;
+  border-radius: 4px;
+  font-family: "Helvetica Neue";
+  height: 38px;
+  margin: 20px 0;
+}
+
+.file_holder {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 30px 50px;
+}
+
+.file_holder label {
+  font-family: "Helvetica";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.file_holder1,
+.file_holder2,
+.file_holder3 {
+  width: 25%;
 }
