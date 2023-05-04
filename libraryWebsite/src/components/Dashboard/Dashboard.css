@@ -1,0 +1,14 @@
+.dash_board_header {
+  box-sizing: border-box;
+  border-bottom: 1px solid blue;
+  width: auto;
+}
+
+.dash_board_header h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 10px 20px;
+}
