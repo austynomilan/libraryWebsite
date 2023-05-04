@@ -75,3 +75,24 @@ input:focus{
 font-size: 12px;
 color: blue;
 }
+
+
+.upLoad{
+    width: 30px;
+    height: 30px;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+    animation-name: roll;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes roll {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

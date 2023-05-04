@@ -45,7 +45,8 @@ export default function Dashboard() {
 <section>
   <section className="upload_tag">
   <HiOutlineCloudUpload 
-  size={40}
+  className="upLoad"
+  size={20}
   color="blue"
   />
   <h3>Drop files to upload or <strong>browse</strong></h3>
